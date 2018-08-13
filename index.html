@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Grocery Items</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h1>Grocery Items</h1>
+      </div>
+      <div class="form-container">
+        <form id="inputBox">
+          <div class="form-group">
+            <label for="grocery">Enter grocery item</label>
+            <input id="grocery" class="form-control" type="text">
+          </div>
+          <button type="button" id="addList" class="btn btn-success">Add to list</button>
+          <p><span id="initialList"></span></p><br><br>
+          <button type="submit" id="orderList" class="btn btn-danger">Submit Final List</button>
+        </form>
+      </div>
+      <div class="listResult">
+        <h3>Final List</h3>
+        <ul>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>
